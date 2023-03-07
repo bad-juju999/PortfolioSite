@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/RockPaperScissorGame/rps.css">
+        <title>Rock, Paper & Scissors</title>
+        <link rel="icon" href="whiteJ.jpg" type="image/x-icon">
+    </head>
+    <body>
+
+        <div class="container">
+            <h1 > Rock Paper Scissor Game</h1>
+
+            <div class="box">
+                    <ul> 
+                        <li onclick= "selectRock()">Rock </li>
+                        <li onclick="selectPaper()" >Paper </li>
+                        <li onclick="selectScissors()"> Scissors </li>
+                    </ul>
+                
+                    <div>
+                        <p id ="displayWinner">You Win!!</p>
+                        <p id ="displayLoser">You Lose </p>
+                        <p id ="displayTie">We Tied...</p>
+                        <!--need to make it so these positions dont move during game-->
+                    </div>
+            </div>
+        </div>
+
+        <div class="center">
+                <div id ="displayWinCounter">Wins: 0</div>
+                <div id ="displayLossCounter">Losses: 0</div>
+                <div id ="displayTieCounter">Ties: 0</div>
+        </div>
+       
+        
+        <a href="/index.html" class="returnHome">Return to Home</a>
+
+    <!--end of body-->
+        <script src="/RockPaperScissorGame/rps.js"></script>
+    </body>
+</html>
