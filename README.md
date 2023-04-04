@@ -1,5 +1,7 @@
 # Portfolio Website
 
+https://julianlively.netlify.app/
+
 Functions / Documentation
 ---
 - Showcase myself to future employers
